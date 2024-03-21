@@ -1,0 +1,55 @@
+.cangrejito {
+    width: 50px;
+    height: 50px;
+}
+
+.BotonBuscar {
+    background-color: aqua;
+    color: black;
+    font-size: 800;
+}
+
+.Titulos {
+    text-align: center;
+    line-height: 80px;
+    background-color: black;
+    color: white;
+}
+
+.Titulos:hover{
+    background-color: white;
+    color: black;
+}
+
+.ContenedorPadre div {
+    background-color: blanchedalmond;
+    width: 80px;   
+    height: 15px;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 30px;
+}
+
+.ContenedorPadre{
+    display: flex;
+    justify-content:flex-end;
+    
+}
+
+.nav {
+    display: flex;
+flex-direction: row-reverse;
+justify-content: center;
+
+}
+
+
+.MoverBoton {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#centrar {
+text-align: center;
+}
